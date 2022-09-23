@@ -70,16 +70,15 @@ body {
 }
 
 .card > .description {
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  row-gap: 0.625rem;
+  row-gap: 1.25rem;
 }
 
 .card > .description > .stylized {
   font-size: 0.75rem;
   letter-spacing: 0.313rem;
-  margin: 0;
 }
 
 .card > .description > h1 {
@@ -125,6 +124,7 @@ body {
 
 @media (min-width: 768px) {
   .card > .description {
+    padding: 2rem;
     justify-content: space-between;
   }
 
